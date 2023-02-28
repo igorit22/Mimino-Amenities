@@ -28,6 +28,7 @@
     <main>
       <!---------- Amenities & Facilities ----------->
       <section class="amenities-section">
+        <div class="container">
         <h2 class="amenities-title visually-hidden">Amenities</h2>
         <h2 class="amenities-general-title">GENERAL AMENITIES & FACILITIES:</h2>
         <ul class="amenities-general-list list">
@@ -87,59 +88,67 @@
             ELECTRICAL OUTLETS FOR CHARGING DEVICES.
           </li>
         </ul>
-        <picture class="amenities-img1">
-          <source
-            media="(min-width: 375px) and (max-width: 768px)"
-            srcset="
-              ./img/location/map-tab-x1.jpg 1x,
-              ./img/location/map-tab-x2.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 769px)"
-            srcset="
-              ./img/location/map-desk-x1.jpg 1x,
-              ./img/location/map-desk-x2.jpg 2x
-            "
-          />
-          <img
-            src="./images/img-mobile-1-x1.jpg"
-            loading="lazy"
-            alt="We are on the map"
-            srcset="
-              ./img/location/map-mob-x1.jpg 1x,
-              ./img/location/map-mob-x2.jpg 2x
-            "
-            class="location-map"
-          />
-        </picture>
-        <picture class="amenities-img2">
-          <source
-            media="(min-width: 375px) and (max-width: 768px)"
-            srcset="
-              ./img/location/map-tab-x1.jpg 1x,
-              ./img/location/map-tab-x2.jpg 2x
-            "
-          />
-          <source
-            media="(min-width: 769px)"
-            srcset="
-              ./img/location/map-desk-x1.jpg 1x,
-              ./img/location/map-desk-x2.jpg 2x
-            "
-          />
-          <img
-            src="./img/location/map-mob-x1.jpg"
-            loading="lazy"
-            alt="We are on the map"
-            srcset="
-              ./img/location/map-mob-x1.jpg 1x,
-              ./img/location/map-mob-x2.jpg 2x
-            "
-            class="location-map"
-          />
-        </picture>
+<div class="amenities-images">
+          <picture class="amenities-img-1">
+            <source
+              media="(min-width: 480px) and (max-width: 768px)"
+              srcset="
+              ./images/img-tablet-1-x1.jpg 1x,
+              ./images/img-tablet-1-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 769px)"
+              srcset="
+              ./images/img-desk-1-x1.jpg 1x,
+              ./images/img-desk-1-x2.jpg 2x
+              "
+            />
+            <img
+              src="./images/img-mobile-1-x1.jpg"
+              alt="We are on the map"
+              srcset="
+              ./images/img-mobile-1-x1.jpg 1x,
+              ./images/img-mobile-1-x2.jpg 2x
+              "
+              class="amenities-image-1"
+            />
+          </picture>
+          
+          <!-- <img src="./images/img-mobile-1-x1.jpg" srcset="./images/img-mobile-1-x1.jpg 480w, image-768w.jpg 768w, image-1024w.jpg 1024w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33.3vw"
+          srcset="image-1x.jpg 1x, image-2x.jpg 2x" 
+          alt="Описание изображения"> -->
+          
+          <picture class="amenities-img-2">
+            <source
+              media="(min-width: 480px) and (max-width: 768px)"
+              srcset="
+              ./images/img-tablet-2-x1.jpg 1x,
+              ./images/img-tablet-2-x2.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 769px)"
+              srcset="
+              ./images/img-desk-2-x1.jpg 1x,
+              ./images/img-desk-2-x2.jpg 2x
+              "
+            />
+            <img
+              src="./images/img-mobile-2-x1.jpg"
+              loading="lazy"
+              alt="We are on the map"
+              srcset="
+              ./images/img-mobile-2-x1.jpg 1x,
+              ./images/img-mobile-2-x2.jpg 2x
+              "
+              class=""
+            />
+          </picture>
+</di >
         <button class="amenities-button">BOOK A ROOM</button>
+      </div>
       </section>
     </main>
   </body>

@@ -50,8 +50,8 @@ p {
 
 .container {
   max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -155,87 +155,57 @@ h2 {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #f7f7f7;
-    margin-bottom: 28px;
+    margin-bottom: 64px;
 }
 .amenities-media-item {
 }
-.amenities-img1 {
+.amenities-img-1 {
+  margin-left: 96px;
 }
-.amenities-img2 {
+.amenities-img-2 {
 }
 .amenities-button {
-}
-
-.location {
-  padding: 64px 5px;
-  background: #f6f6f6;
-}
-
-.location-title {
-  margin: 0;
-  margin-bottom: 32px;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1, 0;
-  letter-spacing: -0.02em;
-  color: #121212;
 }
 
 img {
   display: block;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
 }
 
-.location-map {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+
+
+.amenities-images {
+  position: relative;
 }
 
-.location-address-text {
-  max-width: 214px;
-  margin-top: 32px;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: -0.02em;
-  color: #000000;
+.amenities-image-1 {
+  margin-left: 90px;
+  width: 259px;
+  margin-bottom: 32px;
 }
 
-.contacts-text {
-  margin-top: 28px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  color: #121212;
-}
-.contacts-list {
-  margin-top: 12px;
-}
-
-.contacts-link {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  color: #121212;
+.amenities-img-2 {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  width: 207px;
+  height: 103px;
 }
 
 .amenities-button {
-  
-border: 0.8px solid #F7F7F7;
-border-radius: 32px;
-background-color: transparent;
-width: 175px;
-height: 34px;
-text-align: center;
-margin: 0 auto;
-font-size: 14px;
-line-height: 1.29;
-letter-spacing: -0.02em;
-color: #F7F7F7;
-cursor: pointer;
+  display: block;
+  border: 0.8px solid #F7F7F7;
+  border-radius: 32px;
+  background-color: transparent;
+  width: 175px;
+  height: 34px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #F7F7F7;
+  cursor: pointer;
 }
