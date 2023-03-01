@@ -1,19 +1,10 @@
-:root {
-  /* --outline: 1px solid tomato; */
-}
-
 body {
   font-family: "DM Sans", sans-serif;
-  background: #f6f6f6;
 }
 
 ul {
   margin: 0;
 
-}
-address {
-  font-style: normal;
-  margin: 0;
 }
 
 p {
@@ -27,11 +18,6 @@ p {
   text-decoration: none;
 }
 
-/* .list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-} */
 
 .visually-hidden {
   position: absolute;
@@ -50,8 +36,6 @@ p {
 
 .container {
   max-width: 1440px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -155,41 +139,36 @@ h2 {
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #f7f7f7;
-    margin-bottom: 64px;
+    margin-bottom: 208px;
 }
 .amenities-media-item {
-}
-.amenities-img-1 {
-  margin-left: 96px;
-}
-.amenities-img-2 {
-}
-.amenities-button {
 }
 
 img {
   display: block;
-  /* height: 100%;
-  width: 100%; */
 }
 
-
-
 .amenities-images {
+  display: block;
   position: relative;
 }
 
 .amenities-image-1 {
-  margin-left: 90px;
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
   width: 259px;
-  margin-bottom: 32px;
 }
 
+
+
 .amenities-img-2 {
-  position: absolute;
-  top: 50%;
-  left: 33%;
-  transform: translate(-50%, -50%);
+  display: block;
+  position: relative;
+margin-left: 10px;
   width: 207px;
   height: 103px;
 }
@@ -201,11 +180,184 @@ img {
   background-color: transparent;
   width: 175px;
   height: 34px;
-  text-align: center;
+  text-align: center; 
   margin: 0 auto;
+  margin-top: 118px;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: #F7F7F7;
   cursor: pointer;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .amenities-image-2 {
+    width: 365px;
+  }
+  .amenities-image-1 {
+    width: 408px;
+  }
+  
+  .amenities-section {
+    padding-top: 80px;
+    padding-bottom: 64px;
+    padding: 80px 32px;
+  }
+
+  
+h2 {
+margin: 0;
+padding-left: 0;
+}
+
+.list {
+padding-left: 20px;
+margin: 0;
+/* list-style: none; */
+}
+
+.amenities-general-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.1;
+margin-bottom: 40px;
+}
+
+.amenities-general-list {
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 40px;
+}
+
+.amenities-general-item {
+}
+.amenities-bathroom-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.1;
+margin-bottom: 40px;
+}
+.amenities-bathroom-list {
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 40px;
+}
+.amenities-bathroom-item {
+}
+.amenities-bedroom-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.1;
+margin-bottom: 40px;
+}
+.amenities-bedroom-list {
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 40px;
+}
+.amenities-bedroom-item {
+}
+.amenities-kitchen-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.1;
+margin-bottom: 40px;
+}
+.amenities-kitchen-list {
+font-size: 18px;
+line-height: 1.33;
+margin-bottom: 40px;
+}
+.amenities-kitchen-item {
+}
+.amenities-media-title {
+font-weight: 700;
+font-size: 40px;
+line-height: 1.1;
+margin-bottom: 40px;
+}
+.amenities-media-list {
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: -0.02em;
+color: #f7f7f7;
+  margin-bottom: 279px;
+}
+.amenities-media-item {
+}
+.amenities-button {
+margin: 0;
+margin-top: 118px;
+margin-bottom: 194px;
+
+}
+
+
+.amenities-img-2 {
+margin: 0;
+
+}
+.amenities-image-1 {
+display: block;
+position: absolute;
+top: 100%;
+left: 73%;
+transform: translate(-50%, -50%);
+width: 408px;
+}
+  .amenities-button {
+margin-right: auto;
+margin-bottom: 194px;
+
+}
+
+}
+
+
+@media screen and (min-width: 769px) {
+  .amenities-text {
+    display: flex;
+    flex-wrap: wrap;
+  column-gap: 70px;
+  row-gap: 100px;
+  }
+
+  .amenities-text div {
+  display: inline-block;
+  flex-direction: row;
+  width: calc((100% - 70px) / 2);
+}
+
+.amenities-img-2 {
+  margin-left: 560px;
+  width: 439px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+
+}
+
+.amenities-image-1 {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 79%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 496px;
+}
+.amenities-button {
+  margin: 0;
+  margin-right: auto;
+  margin-bottom: 235px;
+  margin-top: 200px;
+  margin-left: 480px;
+  font-size: 18px;
+  line-height: 1.33;
+  
+  }
+
 }

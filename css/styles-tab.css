@@ -1,4 +1,149 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+    
+    .amenities-section {
+        padding-top: 80px;
+        padding-bottom: 64px;
+        padding: 80px 32px;
+      }
+    
+      
+h2 {
+    margin: 0;
+    padding-left: 0;
+    }
+  
+    .list {
+  padding-left: 20px;
+  margin: 0;
+  /* list-style: none; */
+}
+
+.amenities-general-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  
+  .amenities-general-list {
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+  
+  .amenities-general-item {
+  }
+  .amenities-bathroom-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  .amenities-bathroom-list {
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+  .amenities-bathroom-item {
+  }
+  .amenities-bedroom-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  .amenities-bedroom-list {
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+  .amenities-bedroom-item {
+  }
+  .amenities-kitchen-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  .amenities-kitchen-list {
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 40px;
+  }
+  .amenities-kitchen-item {
+  }
+  .amenities-media-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+  }
+  .amenities-media-list {
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    color: #f7f7f7;
+      margin-bottom: 279px;
+  }
+  .amenities-media-item {
+  }
+  .amenities-button {
+    margin: 0;
+    margin-top: 118px;
+    margin-bottom: 194px;
+
+  }
+
+
+  .amenities-img-2 {
+margin: 0;
+
+  }
+  .amenities-image-1 {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 408px;
+  }
+
+
+  }
+ 
+  /* .amenities-image-1 { */
+    /* margin-left: 328px;
+    width: 376px; */
+    /* margin-bottom: 32px; */
+  }
+  
+  /* .amenities-img-2 {
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    width: 365px;
+    height: 182px;
+  } */
+  
+  .amenities-button {
+margin: 0;
+margin-right: auto;
+margin-bottom: 50px;
+
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .location-address {
         display: flex;
         justify-content: space-between;

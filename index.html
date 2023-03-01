@@ -12,9 +12,7 @@
       type="image/x-icon"
       href="./images/favicon.ico">
     <link rel="stylesheet" href="./css/styles.css">
-    <!-- <link rel="stylesheet" href="./css/styles-mob.css">
-    <link rel="stylesheet" href="./css/styles-tab.css">
-    <link rel="stylesheet" href="./css/styles-desk.css"> -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
       rel="preconnect"
@@ -29,8 +27,9 @@
       <!---------- Amenities & Facilities ----------->
       <section class="amenities-section">
         <div class="container">
+          <div class="amenities-text">
         <h2 class="amenities-title visually-hidden">Amenities</h2>
-        <h2 class="amenities-general-title">GENERAL AMENITIES & FACILITIES:</h2>
+        <div class="general-wrap"><h2 class="amenities-general-title">GENERAL AMENITIES & FACILITIES:</h2>
         <ul class="amenities-general-list list">
           <li class="amenities-general-item">24-HOUR FRONT DESK SERVICE</li>
           <li class="amenities-general-item">DAILY HOUSEKEEPING</li>
@@ -44,8 +43,10 @@
           <li class="amenities-general-item">ON-SITE PARKING (SURCHARGE)</li>
           <li class="amenities-general-item">CONCIERGE SERVICES</li>
         </ul>
+      </div>
+      <div class="bathroom-wrap">
         <h2 class="amenities-bathroom-title">BATHROOM:</h2>
-        <ul class="amenities-bathroom-list">
+        <ul class="amenities-bathroom-list  list">
           <li class="amenities-bathroom-item">PRIVATE BATHROOM WITH SHOWER</li>
           <li class="amenities-bathroom-item">COMPLIMENTARY TOILETRIES</li>
           <li class="amenities-bathroom-item">HAIR DRYER</li>
@@ -54,8 +55,10 @@
             DELUXE BATHROBES (IN SOME ROOM CATEGORIES)
           </li>
         </ul>
+      </div>
+      <div class="bedroom-wrap">
         <h2 class="amenities-bedroom-title">BEDROOM:</h2>
-        <ul class="amenities-bedroom-list">
+        <ul class="amenities-bedroom-list  list">
           <li class="amenities-bedroom-item">
             COMFORTABLE BEDS WITH HIGH-QUALITY LINENS
           </li>
@@ -66,9 +69,10 @@
           <li class="amenities-bedroom-item">SAFE FOR VALUABLES</li>
           <li class="amenities-bedroom-item">WRITING DESK AND CHAIR</li>
           <li class="amenities-bedroom-item">FLAT-SCREEN TV WITH CABLE CHANNELS</li>
-        </ul>
+        </ul></div>
+        <div class="kitchen-wrap">
         <h2 class="amenities-kitchen-title">KITCHEN:</h2>
-        <ul class="amenities-kitchen-list">
+        <ul class="amenities-kitchen-list  list">
           <li class="amenities-kitchen-item">
             IN-ROOM KITCHENETTE (IN SOME ROOM CATEGORIES)
           </li>
@@ -77,9 +81,10 @@
           <li class="amenities-kitchen-item">ELECTRIC KETTLE</li>
           <li class="amenities-kitchen-item">COOKING UTENSILS AND CUTLERY</li>
           <li class="amenities-kitchen-item">DINING TABLE AND CHAIRS</li>
-        </ul>
+        </ul></div>
+        <div class="media-wrap">
         <h2 class="amenities-media-title">MEDIA:</h2>
-        <ul class="amenities-media-list">
+        <ul class="amenities-media-list  list">
           <li class="amenities-media-item">FLAT-SCREEN TV WITH CABLE CHANNELS</li>
           <li class="amenities-media-item">HIGH-SPEED WI-FI</li>
           <li class="amenities-media-item">IPOD DOCKING STATION</li>
@@ -87,18 +92,19 @@
           <li class="amenities-media-item">
             ELECTRICAL OUTLETS FOR CHARGING DEVICES.
           </li>
-        </ul>
+        </ul></div>
+      </div>
 <div class="amenities-images">
           <picture class="amenities-img-1">
             <source
-              media="(min-width: 480px) and (max-width: 768px)"
+              media="(min-width: 600px) and (max-width: 768px)"
               srcset="
               ./images/img-tablet-1-x1.jpg 1x,
               ./images/img-tablet-1-x2.jpg 2x
               "
             />
             <source
-              media="(min-width: 769px)"
+              media="(min-width: 1200px)"
               srcset="
               ./images/img-desk-1-x1.jpg 1x,
               ./images/img-desk-1-x2.jpg 2x
@@ -114,22 +120,17 @@
               class="amenities-image-1"
             />
           </picture>
-          
-          <!-- <img src="./images/img-mobile-1-x1.jpg" srcset="./images/img-mobile-1-x1.jpg 480w, image-768w.jpg 768w, image-1024w.jpg 1024w"
-          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33.3vw"
-          srcset="image-1x.jpg 1x, image-2x.jpg 2x" 
-          alt="Описание изображения"> -->
-          
+           
           <picture class="amenities-img-2">
             <source
-              media="(min-width: 480px) and (max-width: 768px)"
+              media="(min-width: 600px) and (max-width: 768px)"
               srcset="
               ./images/img-tablet-2-x1.jpg 1x,
               ./images/img-tablet-2-x2.jpg 2x
               "
             />
             <source
-              media="(min-width: 769px)"
+              media="(min-width: 1200px)"
               srcset="
               ./images/img-desk-2-x1.jpg 1x,
               ./images/img-desk-2-x2.jpg 2x
@@ -137,7 +138,6 @@
             />
             <img
               src="./images/img-mobile-2-x1.jpg"
-              loading="lazy"
               alt="We are on the map"
               srcset="
               ./images/img-mobile-2-x1.jpg 1x,
@@ -146,7 +146,7 @@
               class=""
             />
           </picture>
-</di >
+</div >
         <button class="amenities-button">BOOK A ROOM</button>
       </div>
       </section>
